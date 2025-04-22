@@ -8,18 +8,25 @@
   <body>
     <div id="ragic_webview"></div>
     <script>
-      var ragic_url = "localhost/yeeyanDB7/report/display?reportwv&id=4";
-      var ragic_feature = "query";
+      var ragic_url = "test1.ragic.com/test1a/forms2/2";
+      var ragic_feature = "form";
+      var ragic_embedtype = "";
       var exactMatch = true;
-      var ragic_embedtype = "report";
-      var reportHideSetting = false;
+      var pfv = [];
+
+      var applyDefaultView = false;
+      var showSheetName = false;
+
+      var webFormVersionIsNew = true;
+      var submitOnce = false;
+      var version = 2;
 
       /* * * DON'T EDIT BELOW THIS LINE * * */
       (function () {
         var rq = document.createElement("script");
         rq.type = "text/javascript";
         rq.async = true;
-        rq.src = "https://localhost/sims/webview/load.js";
+        rq.src = "https://test1.ragic.com/intl/common/load.js";
         (
           document.getElementsByTagName("head")[0] ||
           document.getElementsByTagName("body")[0]
